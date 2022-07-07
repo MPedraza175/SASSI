@@ -1,0 +1,33 @@
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left,rgb(46, 45, 46), rgb(248, 246, 250));
+    height: 60px;
+    ul{
+      display: flex;
+      list-style: none;
+      margin: 8px;
+      
+    }
+    li{
+      padding: 5px;
+      transform: translate(30px 30px); 
+    }
+    a{
+      text-decoration: none;
+      color:rgb(252, 253, 253);
+      font-size: 15px;
+      text-shadow: #e9e0e9 5px 2px 6px;
+      transform: translate(30px 30px);
+      
+    }
+    li:hover{
+      transform: translate(5px, 5px);
+      transition: 0,5s;
+      
+    }
+    
+  }
+  

@@ -1,0 +1,9 @@
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(247, 245, 245);
+    iframe:hover{
+      transform: translate(-10px, -10px);
+      transition: 1s;
+    }
+    
+  }

@@ -1,0 +1,35 @@
+.descrip{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Kine.jpg);
+    background-repeat:no-repeat;
+    margin: 30px 30px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+   
+  .productos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    .producto{
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      align-items: center;
+      margin: 14px;
+      padding: 0px;
+    }
+    .producto__img{
+      width: 50%;
+    }
+    .producto__text{
+      text-align: center;
+      margin: 10px;
+    }
+  
+  }

@@ -1,0 +1,33 @@
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    .tarjeta__titulo{
+      font-size: 20px;
+      margin: 5px 0px;
+    
+    }
+    .tarjeta__img{
+      width: 60%;
+    }
+    .tarjeta__text{
+      text-align: center;
+    }
+    
+  }
+  
+  
+  .tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    div:hover{
+      transform: translate(10px, 10px);
+    
+    }
+  }

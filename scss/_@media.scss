@@ -1,0 +1,84 @@
+@media(min-width:576px){
+    .nosotrosimg{
+      background-image: url(../img/fisio.jpg);
+      height: 300px;
+      padding: 50px;
+      font-size: 17px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 10px 0px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: rgb(252, 255, 205);
+  
+    }
+    .nosotrosimg h1{
+      align-content: center;
+      text-align: center;
+      font-size: 50px;
+      font-style: oblique;
+      font-weight: 100;
+      color: #280138;
+      text-align: center;
+      box-shadow: #f5f2f5, 5px 5px;
+    }
+  }
+  @media(min-width:576px){
+    .Servicios{
+      background-image: url(../img/fisio.jpg);
+      height: 300px;
+      font-size: 20px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 40px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: blanchedalmond;
+    }
+    .Servicios h1{
+      font-size: 70px;
+      font-style: oblique;
+      font-weight: 100;
+      color: #280138;
+      text-align: center;
+    }
+    .Servicios h2{
+      color: #eeebf0;
+    }
+    .Servicios p{
+      color: #e9e0e9;
+    }
+    
+    .CajasConsultas{
+      display: flex;
+      background-color: #e7d7f8; 
+      height: 500px;
+      font-size: 20px;
+      margin: 10px 0px;
+      text-align:center;
+      justify-content:center;
+      align-items:center;
+      color: #280138; 
+      
+    }
+    
+    .cajaOnline{
+      margin: 50px;
+      display:grid;
+      justify-content:center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .Maps h3{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 900;
+    }
+    .Maps p{
+    text-align: left;
+    padding: 5px 55px; 
+    font-style: oblique;
+    }
+  
+  }

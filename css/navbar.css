@@ -1,0 +1,32 @@
+.navbar {
+  grid-area: navbar;
+  box-shadow: #999898 10px 20px 30px;
+  background-color: rgb(46, 45, 46);
+  display: flex;
+  width: auto;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to left, rgb(46, 45, 46), rgb(248, 246, 250));
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 8px;
+}
+.navbar li {
+  padding: 5px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(252, 253, 253);
+  font-size: 15px;
+  text-shadow: #e9e0e9 5px 2px 6px;
+}
+.navbar img {
+  margin: 10px;
+}
+.navbar ul li:hover {
+  transform: translate(5px, 5px);
+  transition: 0, 5s;
+}/*# sourceMappingURL=navbar.css.map */

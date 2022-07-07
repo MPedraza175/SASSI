@@ -1,0 +1,22 @@
+.presentation{
+    height: 300px;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../img/fisio.jpg);
+    h1{
+      font-size: 50px;
+      padding: 20px;
+      font-style: oblique;
+      color: #37045a;
+      text-align: center;
+    }
+    p{
+      font-size: 20px;
+    }
+  }

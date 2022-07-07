@@ -1,0 +1,9 @@
+.container{  
+    display:contents;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px 500px 150px 80px;
+    grid-template-areas: "navbar navbar navbar navbar"
+                         "header header header header"
+                         "main   main   main   sidebar"
+                         "footer footer footer footer";
+  }
